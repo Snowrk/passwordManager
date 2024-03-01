@@ -1,0 +1,56 @@
+.inp-box {
+  background-color: #454f84;
+  border-radius: 1rem;
+  padding: 2rem;
+  font-family: 'Roboto';
+  width: 100%;
+  max-width: 600px;
+}
+
+.inp-box > h1 {
+  color: white;
+  font-size: larger;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.inp {
+  display: flex;
+  background-color: white;
+  border-radius: 0.5rem;
+  /* padding: 0.5rem; */
+}
+
+.inp > img {
+  width: 50px;
+  padding: 0.8rem;
+}
+
+.inp + .inp {
+  margin-top: 1.5rem;
+}
+
+.inp > input {
+  background-color: transparent;
+  border: none;
+  font-size: large;
+  border-left: solid 1px lightgrey;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.addBtn {
+  color: white;
+  font-family: 'Roboto';
+  padding-block: 0.8rem;
+  padding-inline: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #0b69ff;
+  margin-top: 1rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.button {
+  text-align: right;
+}

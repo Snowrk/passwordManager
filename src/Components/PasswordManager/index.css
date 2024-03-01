@@ -1,0 +1,99 @@
+img {
+  width: 100%;
+}
+
+input {
+  outline: none;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.bg {
+  padding: 2rem;
+  background-color: #9ba9eb;
+}
+
+.bg-1,
+.bg-2 {
+  background-color: #5763a5;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+.bg > img {
+  width: 200px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header > h1 {
+  font-size: large;
+  font-weight: 500;
+}
+
+.cnt {
+  border: 1px solid #7683cb;
+  border-radius: 1rem;
+  padding-inline: 0.7rem;
+  padding-block: 0.1rem;
+}
+
+.search {
+  display: flex;
+  margin-left: auto;
+  /* margin-right: 0; */
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 150px;
+}
+
+.search > img {
+  width: 20px;
+}
+
+hr {
+  border-color: #0ea5e9;
+}
+
+.search > input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.show {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.3rem;
+}
+
+.noPass {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .bg-1 {
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    justify-content: space-between;
+  }
+  .bg-1 > img {
+    order: 1;
+    width: 50%;
+  }
+  .noPass > img {
+    max-width: 600px;
+  }
+}
